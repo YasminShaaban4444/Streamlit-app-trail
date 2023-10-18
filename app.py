@@ -5,7 +5,7 @@ from models.dummies import *
 import joblib
 import logging
 
-model=joblib.load('models\model.h5')
+model=joblib.load('models/model.h5')
 #scaler=joblib.load('models\scaler.h5')
 
 df=pd.read_csv('data/Life_Expectancy_Data.csv')
